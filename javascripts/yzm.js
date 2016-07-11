@@ -1,7 +1,7 @@
 $(function(){
   $('.form-group button').click(function(){
     settime($(this));
-  })
+  });
   // 验证码计时
   var countdown = 60;
   function settime(val) {
@@ -17,5 +17,5 @@ $(function(){
         settime(val)
       },1000)
     }
-  }
+  };
 });
